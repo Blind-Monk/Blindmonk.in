@@ -9,7 +9,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border transition-all">
       <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a routerLink="/" class="flex items-center gap-3 group">
-          <img src="assets/logos/blind-monk-logo.svg" alt="BlindMonk Logo" class="w-9 h-9 object-contain group-hover:scale-105 transition-transform" />
+          <img src="assets/logos/blind-monk-logo.png" alt="Blind Monk mountain logo" class="w-11 h-11 object-contain group-hover:scale-105 transition-transform" />
           <span class="font-display text-xl font-bold text-primary tracking-tight">
             BlindMonk<span class="text-accent">.in</span>
           </span>

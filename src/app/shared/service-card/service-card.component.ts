@@ -6,7 +6,7 @@ import { Component, input } from '@angular/core';
   template: `
     <div class="h-full rounded-2xl border border-border bg-surface p-8 shadow-sm hover:border-accent/40 hover:shadow-md transition-all duration-300 flex flex-col justify-between">
       <div>
-        <div class="w-12 h-12 rounded-xl bg-amber-100/70 text-amber-800 flex items-center justify-center text-2xl mb-5">
+        <div class="w-12 h-12 rounded-xl bg-amber-100/70 text-primary flex items-center justify-center text-2xl mb-5">
           {{ icon() }}
         </div>
         <h3 class="font-display text-xl font-semibold text-primary mb-4">

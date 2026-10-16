@@ -1,12 +1,13 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { SectionTitleComponent } from '../../shared/section-title/section-title.component';
+import { ComingSoonBadgeComponent } from '../../shared/coming-soon-badge/coming-soon-badge.component';
 import { SeoService } from '../../core/services/seo.service';
 
 @Component({
   selector: 'app-hardware-page',
   standalone: true,
-  imports: [RouterLink, SectionTitleComponent],
+  imports: [RouterLink, SectionTitleComponent, ComingSoonBadgeComponent],
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
@@ -14,6 +15,9 @@ import { SeoService } from '../../core/services/seo.service';
         title="Hardware & Silicon Engineering"
         subtitle="Designing custom silicon architectures, edge compute nodes, and high-performance embedded systems for the AI era."
       />
+      <div class="mt-4 flex justify-center">
+        <app-coming-soon-badge />
+      </div>
 
       <div class="grid md:grid-cols-2 gap-12 mt-16 items-center">
         <div class="space-y-6">

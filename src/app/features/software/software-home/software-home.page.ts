@@ -18,7 +18,7 @@ import { SeoService } from '../../../core/services/seo.service';
       <div class="grid md:grid-cols-2 gap-8 mt-16">
         <div class="rounded-3xl border border-border bg-white p-8 shadow-sm hover:shadow-lg transition flex flex-col justify-between space-y-6">
           <div class="space-y-4">
-            <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center text-3xl font-bold">
+            <div class="w-14 h-14 rounded-2xl bg-amber-100 text-primary flex items-center justify-center text-3xl font-bold">
               💻
             </div>
             <h3 class="font-display text-2xl font-bold text-primary">Engineering Services</h3>

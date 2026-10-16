@@ -46,6 +46,10 @@ interface ServiceGroup {
         <a routerLink="/contact" class="inline-block px-8 py-3.5 rounded-full bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition">
           Schedule Consultation
         </a>
+        <p class="mt-6 text-sm text-slate-300">
+          Interested in joining our team full-time or as a freelancer?
+          <a routerLink="/contact" class="font-semibold text-amber-300 underline underline-offset-4 hover:text-white">Let us know.</a>
+        </p>
       </div>
     </section>
   `

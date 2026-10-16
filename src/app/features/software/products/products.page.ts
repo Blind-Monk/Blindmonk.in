@@ -15,7 +15,7 @@ import { SeoService } from '../../../core/services/seo.service';
         subtitle="Tools we're building to empower developers, businesses, and security teams."
       />
 
-      <div class="grid md:grid-cols-3 gap-6 mt-16">
+      <div class="grid md:grid-cols-2 gap-6 mt-16">
         <app-product-card
           icon="🧠"
           title="WiseWords"
@@ -40,6 +40,14 @@ import { SeoService } from '../../../core/services/seo.service';
           link="/contact"
           [tags]="['OSINT', 'Cybersecurity', 'Threat Intel']"
         />
+        <app-product-card
+          icon="🔐"
+          title="Mumble"
+          description="Encrypted sharing for sensitive secrets and media. Send secrets through one-time links or reusable links for long-term access, and share media through links that expire on your schedule."
+          [comingSoon]="true"
+          link="/contact"
+          [tags]="['Encrypted Sharing', 'One-Time & Persistent', 'Expiring Media Links']"
+        />
       </div>
     </section>
   `
@@ -49,8 +57,8 @@ export class ProductsPage implements OnInit {
 
   ngOnInit(): void {
     this.seo.updateMetaTags({
-      title: 'Software Products — WiseWords, Minrok & Wisdom',
-      description: 'Proprietary products built by BlindMonk: WiseWords AI proxy, Minrok payment proxy, and Wisdom OSINT intelligence.'
+      title: 'Software Products — WiseWords, Minrok, Wisdom & Mumble',
+      description: 'BlindMonk software products: WiseWords AI proxy, Minrok payment proxy, Wisdom OSINT intelligence, and Mumble encrypted secret and media sharing.'
     });
   }
 }

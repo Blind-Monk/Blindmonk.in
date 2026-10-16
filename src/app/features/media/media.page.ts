@@ -1,12 +1,13 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { SectionTitleComponent } from '../../shared/section-title/section-title.component';
+import { ComingSoonBadgeComponent } from '../../shared/coming-soon-badge/coming-soon-badge.component';
 import { SeoService } from '../../core/services/seo.service';
 
 @Component({
   selector: 'app-media-page',
   standalone: true,
-  imports: [RouterLink, SectionTitleComponent],
+  imports: [RouterLink, SectionTitleComponent, ComingSoonBadgeComponent],
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
@@ -14,6 +15,9 @@ import { SeoService } from '../../core/services/seo.service';
         title="BlindMonk Media & Becoming Wolf"
         subtitle="Exploring the frontier of technology, self-mastery, leadership, and high-performance engineering."
       />
+      <div class="mt-4 flex justify-center">
+        <app-coming-soon-badge />
+      </div>
 
       <div class="mt-16 bg-gradient-to-br from-slate-900 to-slate-800 text-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-700">
         <div class="grid md:grid-cols-12 gap-8 items-center">

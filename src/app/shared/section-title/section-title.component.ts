@@ -6,7 +6,7 @@ import { Component, input } from '@angular/core';
   template: `
     <div [class]="centered() ? 'text-center max-w-3xl mx-auto' : 'max-w-3xl'">
       @if (badge()) {
-        <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-accent-light text-amber-700 mb-3">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-accent-light text-primary mb-3">
           {{ badge() }}
         </span>
       }

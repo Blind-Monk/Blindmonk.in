@@ -13,7 +13,7 @@ import { RouterLink } from '@angular/router';
           <!-- Company Info -->
           <div class="space-y-4 md:col-span-1">
             <a routerLink="/" class="flex items-center gap-3">
-              <img src="assets/logos/blind-monk-logo.svg" alt="BlindMonk Logo" class="w-8 h-8 object-contain" />
+              <img src="assets/logos/blind-monk-logo.png" alt="Blind Monk mountain logo" class="w-10 h-10 object-contain" />
               <span class="font-display text-xl font-bold text-white tracking-tight">
                 BlindMonk<span class="text-amber-400">.in</span>
               </span>

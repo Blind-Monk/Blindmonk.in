@@ -17,7 +17,7 @@ import { ComingSoonBadgeComponent } from '../coming-soon-badge/coming-soon-badge
             <app-coming-soon-badge />
           }
         </div>
-        <h3 class="font-display text-xl font-semibold text-primary group-hover:text-amber-600 transition">
+        <h3 class="font-display text-xl font-semibold text-primary group-hover:text-accent transition">
           {{ title() }}
         </h3>
         <p class="mt-2 text-muted leading-relaxed text-sm">
@@ -36,7 +36,7 @@ import { ComingSoonBadgeComponent } from '../coming-soon-badge/coming-soon-badge
       </div>
 
       <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
-        <a [routerLink]="link()" class="text-xs font-semibold text-primary group-hover:text-amber-600 flex items-center gap-1">
+        <a [routerLink]="link()" class="text-xs font-semibold text-primary group-hover:text-accent flex items-center gap-1">
           <span>Learn More</span>
           <span class="text-amber-500 group-hover:translate-x-1 transition-transform">→</span>
         </a>

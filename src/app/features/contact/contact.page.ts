@@ -61,7 +61,7 @@ import { SeoService } from '../../core/services/seo.service';
         <!-- Contact Form -->
         <div class="md:col-span-7 bg-white rounded-3xl border border-border p-8 shadow-sm">
           @if (submittedSuccess()) {
-            <div class="p-6 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 space-y-3">
+            <div class="p-6 rounded-2xl bg-amber-50 border border-amber-200 text-primary space-y-3">
               <div class="text-2xl">🎉</div>
               <h4 class="font-display text-xl font-bold">Message Sent Successfully!</h4>
               <p class="text-sm leading-relaxed">{{ successMessage() }}</p>
