@@ -1,0 +1,164 @@
+<!-- Hero Section -->
+<section class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
+  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+  <div class="max-w-6xl mx-auto px-6 relative z-10">
+    <div class="grid md:grid-cols-12 gap-12 items-center">
+
+      <div class="md:col-span-7 space-y-6 text-center md:text-left">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 text-amber-400 text-xs font-semibold uppercase tracking-wider backdrop-blur">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+          Engineering Next-Gen Technology
+        </div>
+
+        <h1 class="font-display text-4xl md:text-6xl font-extrabold tracking-tight leading-none">
+          Deep Tech. <br/>
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-200 to-amber-500">Silicon & Intelligence.</span>
+        </h1>
+
+        <p class="text-slate-300 text-lg md:text-xl leading-relaxed max-w-2xl font-normal">
+          BlindMonk builds enterprise software platforms, bespoke hardware architectures, cybersecurity frameworks, and original media content.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4 pt-4 justify-center md:justify-start">
+          <a routerLink="/software/services" class="w-full sm:w-auto text-center px-7 py-3.5 rounded-full bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition shadow-lg shadow-amber-500/20">
+            Explore Services
+          </a>
+          <a routerLink="/hardware" class="w-full sm:w-auto text-center px-7 py-3.5 rounded-full bg-slate-800 text-slate-200 border border-slate-700 font-semibold hover:bg-slate-700 hover:text-white transition">
+            Hardware & Silicon
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-5 flex justify-center">
+        <div class="relative w-64 h-64 md:w-80 md:h-80 flex items-center justify-center">
+          <div class="absolute inset-0 rounded-full bg-sky-200/40 filter blur-3xl animate-pulse"></div>
+          <img src="assets/logos/blind-monk-logo.png" alt="Blind Monk mountain logo" class="w-full h-full object-contain relative z-10 drop-shadow-[0_20px_50px_rgba(30,41,59,0.18)]" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Three Pillars Overview -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <app-section-title
+    badge="Our Core Pillars"
+    title="Driven by Innovation Across Three Realms"
+    subtitle="Combining hardware precision, software agility, and compelling media narrative."
+  />
+
+  <div class="grid md:grid-cols-3 gap-8 mt-14">
+    <!-- Pillar 1: Software -->
+    <div class="rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-md transition space-y-4">
+      <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-2xl font-bold">
+        ⚡
+      </div>
+      <h3 class="font-display text-2xl font-bold text-primary">Software</h3>
+      <p class="text-muted text-sm leading-relaxed">
+        Custom SaaS engineering, AI integration, payment proxies, OSINT research tools, and end-to-end cloud infrastructure hosting.
+      </p>
+      <a routerLink="/software" class="inline-flex items-center gap-1.5 text-sm font-semibold text-amber-600 hover:text-amber-700">
+        Discover Software solutions →
+      </a>
+    </div>
+
+    <!-- Pillar 2: Hardware -->
+    <div class="rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-md transition space-y-4">
+      <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center text-2xl font-bold">
+        🔬
+      </div>
+      <h3 class="font-display text-2xl font-bold text-primary">Hardware</h3>
+      <p class="text-muted text-sm leading-relaxed">
+        Designing customized silicon chips, edge compute nodes, and specialized hardware accelerators optimized for low-latency AI inference.
+      </p>
+      <a routerLink="/hardware" class="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-600 hover:text-sky-700">
+        Explore Silicon R&D →
+      </a>
+    </div>
+
+    <!-- Pillar 3: Media -->
+    <div class="rounded-2xl border border-border bg-white p-8 shadow-sm hover:shadow-md transition space-y-4">
+      <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-2xl font-bold">
+        🎙️
+      </div>
+      <h3 class="font-display text-2xl font-bold text-primary">Media</h3>
+      <p class="text-muted text-sm leading-relaxed">
+        Original media production, technical publications, and the flagship "Becoming Wolf" series focusing on tech, mastery, and leadership.
+      </p>
+      <a routerLink="/media" class="inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-600 hover:text-emerald-700">
+        View Media Productions →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="bg-surface border-y border-border py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+      <div>
+        <span class="text-xs font-semibold uppercase tracking-wider text-amber-600 bg-amber-100 px-3 py-1 rounded-full">Product Pipeline</span>
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-primary mt-2">Proprietary Software Platforms</h2>
+      </div>
+      <a routerLink="/software/products" class="mt-4 md:mt-0 text-sm font-semibold text-primary hover:text-amber-600 transition flex items-center gap-1">
+        View All Products →
+      </a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      @for (product of featuredProducts; track product.title) {
+        <app-product-card
+          [icon]="product.icon"
+          [title]="product.title"
+          [description]="product.description"
+          [comingSoon]="product.comingSoon"
+          [link]="product.link"
+          [tags]="product.tags"
+        />
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Services Overview Section -->
+<section class="max-w-6xl mx-auto px-6 py-20">
+  <app-section-title
+    badge="Engineering Services"
+    title="Build, Scale & Protect Your Tech Infrastructure"
+    subtitle="We collaborate with startups and enterprise teams to solve complex technical bottlenecks."
+  />
+
+  <div class="grid md:grid-cols-3 gap-8 mt-14">
+    @for (group of servicesHighlight; track group.title) {
+      <app-service-card
+        [title]="group.title"
+        [icon]="group.icon"
+        [description]="group.description"
+        [services]="group.services"
+      />
+    }
+  </div>
+
+  <div class="mt-12 text-center">
+    <a routerLink="/software/services" class="inline-block px-8 py-3.5 rounded-full bg-primary text-white font-semibold hover:bg-slate-800 transition">
+      Explore All Services & Consultation
+    </a>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="bg-slate-900 text-white py-16">
+  <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+    <h2 class="font-display text-3xl md:text-4xl font-bold">Ready to Elevate Your Technology Capabilities?</h2>
+    <p class="text-slate-300 text-lg">
+      Whether you need custom software development, cloud hosting, cybersecurity audits, or hardware collaboration — let's build something extraordinary together.
+    </p>
+    <div class="pt-4">
+      <a routerLink="/contact" class="px-8 py-4 rounded-full bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition shadow-lg">
+        Get in Touch With BlindMonk
+      </a>
+    </div>
+  </div>
+</section>
