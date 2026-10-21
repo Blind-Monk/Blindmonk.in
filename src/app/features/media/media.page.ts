@@ -28,8 +28,8 @@ import { SeoService } from '../../core/services/seo.service';
               "Becoming Wolf" is our media platform dedicated to unpacking deep technical mastery, resilient mindset, cybersecurity, and the journey of building transformative tech companies.
             </p>
             <div class="pt-2 flex flex-wrap gap-4">
-              <a href="https://youtube.com" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-full bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition text-sm">
-                Watch on YouTube
+              <a href="https://www.youtube.com/@BlindMonk_in" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-full bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition text-sm flex items-center gap-2">
+                <span>📺</span> Watch on YouTube (&#64;BlindMonk_in)
               </a>
               <a routerLink="/contact" class="px-5 py-2.5 rounded-full bg-slate-800 text-slate-200 border border-slate-700 hover:bg-slate-700 transition text-sm font-semibold">
                 Sponsor or Collaborate

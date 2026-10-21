@@ -21,8 +21,8 @@ export interface ContactResponse {
 })
 export class ContactService {
   private http = inject(HttpClient);
-  // Optional Formspree / Web3Forms endpoint
-  private endpoint = 'https://formspree.io/f/placeholder';
+  // Formspree endpoint for BlindMonk communications
+  private endpoint = 'https://formspree.io/f/moejgnwa';
 
   submitContactForm(payload: ContactFormPayload): Observable<ContactResponse> {
     // In production, this posts to Formspree/Web3Forms/Backend
