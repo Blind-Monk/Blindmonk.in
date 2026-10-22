@@ -1,0 +1,1 @@
+var t=[{path:``,loadComponent:()=>import(`./chunk-Bu5eASlj.js`).then(o=>o.SoftwareHomePage)},{path:`services`,loadComponent:()=>import(`./chunk-slBnL6hE.js`).then(o=>o.ServicesPage)},{path:`products`,loadComponent:()=>import(`./chunk-DeFPn04R.js`).then(o=>o.ProductsPage)}];export{t as SOFTWARE_ROUTES};
