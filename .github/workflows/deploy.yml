@@ -34,6 +34,9 @@ jobs:
             --configuration production \
             --base-href "https://blindmonk.in/"
 
+      - name: Create static entrypoints for sitemap routes
+        run: node scripts/create-route-entrypoints.mjs
+
       - name: Copy CNAME for custom domain
         run: echo "blindmonk.in" > dist/blindmonk-website/browser/CNAME
 

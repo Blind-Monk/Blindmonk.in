@@ -10,6 +10,7 @@ import { SeoService } from '../../../core/services/seo.service';
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
+        headingLevel="h1"
         badge="Software Suite"
         title="Software Products"
         subtitle="Tools we're building to empower developers, businesses, and security teams."

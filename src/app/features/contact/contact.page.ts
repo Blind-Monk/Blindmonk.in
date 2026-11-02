@@ -11,6 +11,7 @@ import { SeoService } from '../../core/services/seo.service';
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
+        headingLevel="h1"
         badge="Get In Touch"
         title="Let's Build Something Exceptional"
         subtitle="Have a question about our software products, hardware R&D, or engineering services? Reach out to us."

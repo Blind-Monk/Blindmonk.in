@@ -16,8 +16,11 @@ export class HomePage implements OnInit {
 
   ngOnInit(): void {
     this.seo.updateMetaTags({
-      title: 'Deep Tech, Silicon, AI & Media Platforms',
-      description: 'BlindMonk builds high-performance software products, custom hardware/silicon architectures, and cybersecurity solutions.'
+      title: 'AI Development & Automation | Web & Security',
+      description: 'BlindMonk helps businesses build AI applications, automate workflows, develop web and mobile software, and improve security with authorized assessments and training.',
+      keywords: 'AI development company, hire AI developer, web development company, full-stack developer, freelance developer, security automation, penetration testing, ethical hacking, cloud hosting, SaaS development, Angular developer, React developer, Node.js developer, mobile app development, custom software development, AI automation, machine learning, LLM integration, cybersecurity services, OSINT, threat intelligence, BlindMonk',
+      canonicalUrl: '/',
+      ogType: 'website'
     });
   }
 
@@ -77,6 +80,16 @@ export class HomePage implements OnInit {
         'Security Audits & Penetration Testing',
         'Cybersecurity & Ethical Hacking Workshops',
         'Developer Up-skilling in Modern Tech Stack'
+      ]
+    },
+    {
+      title: 'Performance Marketing & Ads',
+      icon: '🎯',
+      description: 'Data-driven paid advertising across B2B, DTC, mobile apps, and local verticals.',
+      services: [
+        'B2B SaaS Growth (LinkedIn, Google, Reddit, X)',
+        'E-Com & DTC Scaling (Meta, Google Shopping, Amazon)',
+        'Local Lead Gen & App Installs (LSAs, Apple Search Ads)'
       ]
     }
   ];

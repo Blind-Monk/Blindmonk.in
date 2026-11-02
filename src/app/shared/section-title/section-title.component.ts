@@ -10,9 +10,15 @@ import { Component, input } from '@angular/core';
           {{ badge() }}
         </span>
       }
-      <h2 class="font-display text-3xl md:text-4xl font-bold text-primary tracking-tight">
-        {{ title() }}
-      </h2>
+      @if (headingLevel() === 'h1') {
+        <h1 class="font-display text-3xl md:text-4xl font-bold text-primary tracking-tight">
+          {{ title() }}
+        </h1>
+      } @else {
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-primary tracking-tight">
+          {{ title() }}
+        </h2>
+      }
       @if (subtitle()) {
         <p class="mt-4 text-lg text-muted leading-relaxed">
           {{ subtitle() }}
@@ -26,4 +32,5 @@ export class SectionTitleComponent {
   subtitle = input<string>();
   badge = input<string>();
   centered = input<boolean>(true);
+  headingLevel = input<'h1' | 'h2'>('h2');
 }

@@ -11,6 +11,7 @@ import { SeoService } from '../../core/services/seo.service';
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
+        headingLevel="h1"
         badge="Media & Content Studios"
         title="BlindMonk Media & Becoming Wolf"
         subtitle="Exploring the frontier of technology, self-mastery, leadership, and high-performance engineering."

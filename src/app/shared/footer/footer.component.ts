@@ -23,13 +23,14 @@ import { RouterLink } from '@angular/router';
             </p>
           </div>
 
-          <!-- Quick Navigation: Software -->
+          <!-- Quick Navigation: Software & Growth -->
           <div class="space-y-3">
-            <h4 class="font-display text-sm font-semibold uppercase tracking-wider text-slate-100">Software</h4>
+            <h4 class="font-display text-sm font-semibold uppercase tracking-wider text-slate-100">Solutions</h4>
             <ul class="space-y-2 text-sm text-slate-400">
-              <li><a routerLink="/software" class="hover:text-amber-400 transition">Overview</a></li>
-              <li><a routerLink="/software/services" class="hover:text-amber-400 transition">Development & AI Services</a></li>
+              <li><a routerLink="/software" class="hover:text-amber-400 transition">Software Overview</a></li>
+              <li><a routerLink="/software/services" class="hover:text-amber-400 transition">Engineering Services</a></li>
               <li><a routerLink="/software/products" class="hover:text-amber-400 transition">Products (WiseWords, Minrok)</a></li>
+              <li><a routerLink="/marketing" class="hover:text-amber-400 transition">Marketing & Ad Campaigns</a></li>
             </ul>
           </div>
 
@@ -39,6 +40,7 @@ import { RouterLink } from '@angular/router';
             <ul class="space-y-2 text-sm text-slate-400">
               <li><a routerLink="/hardware" class="hover:text-amber-400 transition">Hardware & Silicon</a></li>
               <li><a routerLink="/media" class="hover:text-amber-400 transition">Media & Becoming Wolf</a></li>
+              <li><a routerLink="/sectors" class="hover:text-amber-400 transition">Industry Sectors (17 Divisions)</a></li>
               <li><a routerLink="/about" class="hover:text-amber-400 transition">About BlindMonk</a></li>
             </ul>
           </div>

@@ -9,6 +9,7 @@ import { SeoService } from '../../core/services/seo.service';
   template: `
     <section class="max-w-6xl mx-auto px-6 py-20">
       <app-section-title
+        headingLevel="h1"
         badge="About BlindMonk"
         title="Disciplined Engineering & Deep Innovation"
         subtitle="BlindMonk.in is a deep-tech company spanning custom hardware, AI software, security platforms, and media."
@@ -60,7 +61,7 @@ export class AboutPage implements OnInit {
 
   ngOnInit(): void {
     this.seo.updateMetaTags({
-      title: 'About BlindMonk.in — Deep Tech & Innovation',
+      title: 'About BlindMonk — Deep Tech & Innovation',
       description: 'Learn about BlindMonk mission, values, and disciplined engineering across silicon, software, and media.'
     });
   }

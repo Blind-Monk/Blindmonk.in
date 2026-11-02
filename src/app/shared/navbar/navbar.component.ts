@@ -16,10 +16,12 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
         </a>
 
         <!-- Desktop Navigation -->
-        <div class="hidden md:flex items-center gap-8 font-medium text-sm">
+        <div class="hidden md:flex items-center gap-6 font-medium text-sm">
           <a routerLink="/hardware" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">Hardware</a>
           <a routerLink="/media" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">Media</a>
           <a routerLink="/software" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">Software</a>
+          <a routerLink="/marketing" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">Marketing</a>
+          <a routerLink="/sectors" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">Sectors</a>
           <a routerLink="/about" routerLinkActive="text-accent font-semibold" class="text-muted hover:text-primary transition">About</a>
           <a routerLink="/contact" class="px-5 py-2 rounded-full bg-primary text-white text-sm font-medium hover:bg-slate-700 transition shadow-sm hover:shadow">
             Contact Us
@@ -46,6 +48,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           <a routerLink="/hardware" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">Hardware</a>
           <a routerLink="/media" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">Media</a>
           <a routerLink="/software" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">Software</a>
+          <a routerLink="/marketing" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">Marketing</a>
+          <a routerLink="/sectors" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">Sectors</a>
           <a routerLink="/about" (click)="closeMenu()" routerLinkActive="text-accent font-semibold" class="block py-2 text-muted hover:text-primary transition">About</a>
           <a routerLink="/contact" (click)="closeMenu()" class="block text-center mt-4 px-5 py-2.5 rounded-full bg-primary text-white font-medium hover:bg-slate-700 transition">
             Contact Us
