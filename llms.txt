@@ -1,0 +1,35 @@
+# BlindMonk.in
+
+> BlindMonk builds software, AI integrations, cloud infrastructure, and cybersecurity solutions for organizations and product teams.
+
+Use the public pages below as the source of truth. The same content is available to people and automated search/retrieval systems; this file does not describe hidden or crawler-exclusive content.
+
+## Main pages
+
+- [Home](https://blindmonk.in/): Company overview and capabilities.
+- [Software engineering](https://blindmonk.in/software): Software division, services, and products.
+- [Services](https://blindmonk.in/software/services): Custom development, AI, cloud, security, and training services.
+- [Products](https://blindmonk.in/software/products): BlindMonk's product portfolio.
+- [Marketing](https://blindmonk.in/marketing): Performance marketing and advertising.
+- [Industry sectors](https://blindmonk.in/sectors): Industry-focused digital transformation capabilities.
+- [Hardware](https://blindmonk.in/hardware): Silicon and systems R&D.
+- [About](https://blindmonk.in/about): Company background and engineering principles.
+- [Contact](https://blindmonk.in/contact): Contact the BlindMonk team.
+
+## Engineering services
+
+- [AI development and workflow automation](https://blindmonk.in/software/services/custom-ai-integrations): Integrate AI capabilities into products and automate workflows.
+- [AI as a service](https://blindmonk.in/software/services/ai-as-a-service): Build and operate AI-powered services.
+- [Web development](https://blindmonk.in/software/services/web-app-development): Design and engineering for web applications.
+- [Full-stack SaaS development](https://blindmonk.in/software/services/fullstack-saas-development): Build and scale SaaS products.
+- [API and backend engineering](https://blindmonk.in/software/services/api-backend-engineering): Backend systems and API development.
+- [Security automation, audits, and penetration testing](https://blindmonk.in/software/services/security-audits-pentesting): Security workflow planning and authorized security assessments.
+- [Cybersecurity training](https://blindmonk.in/software/services/cybersecurity-training): Security training for teams.
+- [Ethical hacking workshops](https://blindmonk.in/software/services/ethical-hacking-workshops): Authorized, educational security workshops.
+- [Cloud hosting and deployment](https://blindmonk.in/software/services/cloud-hosting-deployment): Cloud infrastructure and deployment support.
+- [CI/CD setup](https://blindmonk.in/software/services/cicd-setup): Automated build and deployment pipelines.
+
+## Search and crawl resources
+
+- [XML sitemap](https://blindmonk.in/sitemap.xml): Canonical public page URLs.
+- [Robots policy](https://blindmonk.in/robots.txt): Crawler access rules.
