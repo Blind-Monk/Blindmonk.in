@@ -49,6 +49,16 @@ import { SeoService } from '../../core/services/seo.service';
 
             <div class="flex items-start gap-4">
               <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-amber-400 font-bold">
+                📞
+              </div>
+              <div>
+                <span class="text-xs uppercase text-slate-400 block font-semibold">Company Phone</span>
+                <a href="tel:+918098905135" class="text-slate-200 font-medium hover:text-amber-400 transition">+91 80989 05135</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center text-amber-400 font-bold">
                 🎯
               </div>
               <div>
